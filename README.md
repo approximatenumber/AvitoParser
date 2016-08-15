@@ -3,7 +3,7 @@ For parsing ads on avito.ru
 
 ## Examples
 
-Print the ad with the highest price:
+1. Print the ad with the highest price:
 
 ```python
 from avitoparser import AvitoParser
