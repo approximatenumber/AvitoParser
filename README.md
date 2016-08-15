@@ -3,7 +3,7 @@ For parsing ads on avito.ru
 
 ## Examples
 
-Print the ad with the highest price
+Print the ad with the highest price:
 
 ```python
 from avitoparser import AvitoParser
@@ -16,8 +16,9 @@ ads = parser.dump_ads()
 print(ads[0])
 ```
 
+You`ll get:
+
 ```python
->>
 {'link': 'https://www.avito.ru/moskva/velosipedy/karbonovyy_shosseynyy_velosiped_bianchi_oltre_xr2_787297601',
   'price': '247500',
   'description': 'Карбоновый шоссейный велосипед Bianchi Oltre XR2',
