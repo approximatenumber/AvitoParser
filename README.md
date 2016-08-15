@@ -17,8 +17,8 @@ print(ads[0])
  You`ll get:
 ```python
 {'link': 'https://www.avito.ru/moskva/velosipedy/karbonovyy_shosseynyy_velosiped_bianchi_oltre_xr2_787297601',
-  'price': '247500',
-  'description': 'Карбоновый шоссейный велосипед Bianchi Oltre XR2',
-  'image': 'https://33.img.avito.st/140x105/2692545733.jpg'
+ 'price': '247500',
+ 'description': 'Карбоновый шоссейный велосипед Bianchi Oltre XR2',
+ 'image': 'https://33.img.avito.st/140x105/2692545733.jpg'
 }
 ```
