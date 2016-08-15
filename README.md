@@ -10,7 +10,7 @@ from avitoparser import AvitoParser
 base_url = "https://www.avito.ru/rossiya/velosipedy/dorozhnye"
 search_word = "bianchi"
 
-parser = AvitoParser(base_url, search_word, filter='price')
+parser = AvitoParser(base_url, search_word, filter='highcost')
 ads = parser.dump_ads()
 print(ads[0])
 ```
