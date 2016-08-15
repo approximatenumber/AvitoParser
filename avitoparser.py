@@ -23,10 +23,10 @@ class AvitoParser():
 
     def __grab_page(self, page_num):
         url_filter = '&i=1&s=' + self.filter
-        url_search = '&q=' + quote(search_word)
+        url_search = '&q=' + quote(self.search_word)
         url_page_num = '&p=' + str(page_num)
-        result_url = ''.join([base_url + '?', url_filter, url_search, url_page_num])
-        page = BeautifulSoup(urlopen(result_url), "html.parser")
+        url_result = ''.join([self.base_url + '?', url_filter, url_search, url_page_num])
+        page = BeautifulSoup(urlopen(url_result), "html.parser")
         return page
 
     def __links(self, page):
